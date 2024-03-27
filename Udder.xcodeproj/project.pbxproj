@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A99C996C2BB3F1D6009096A8 /* UdderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C996B2BB3F1D6009096A8 /* UdderApp.swift */; };
+		A99C996E2BB3F1D6009096A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C996D2BB3F1D6009096A8 /* ContentView.swift */; };
+		A99C99702BB3F1D8009096A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C996F2BB3F1D8009096A8 /* Assets.xcassets */; };
+		A99C99732BB3F1D8009096A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C99722BB3F1D8009096A8 /* Preview Assets.xcassets */; };
+		A99C997D2BB3F1D8009096A8 /* UdderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C997C2BB3F1D8009096A8 /* UdderTests.swift */; };
+		A99C99872BB3F1D8009096A8 /* UdderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C99862BB3F1D8009096A8 /* UdderUITests.swift */; };
+		A99C99892BB3F1D8009096A8 /* UdderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C99882BB3F1D8009096A8 /* UdderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99C99792BB3F1D8009096A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99C99602BB3F1D6009096A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99C99672BB3F1D6009096A8;
+			remoteInfo = Udder;
+		};
+		A99C99832BB3F1D8009096A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99C99602BB3F1D6009096A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99C99672BB3F1D6009096A8;
+			remoteInfo = Udder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A99C99682BB3F1D6009096A8 /* Udder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99C996B2BB3F1D6009096A8 /* UdderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdderApp.swift; sourceTree = "<group>"; };
+		A99C996D2BB3F1D6009096A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A99C996F2BB3F1D8009096A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A99C99722BB3F1D8009096A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A99C99782BB3F1D8009096A8 /* UdderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99C997C2BB3F1D8009096A8 /* UdderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdderTests.swift; sourceTree = "<group>"; };
+		A99C99822BB3F1D8009096A8 /* UdderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99C99862BB3F1D8009096A8 /* UdderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdderUITests.swift; sourceTree = "<group>"; };
+		A99C99882BB3F1D8009096A8 /* UdderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A99C99652BB3F1D6009096A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C99752BB3F1D8009096A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C997F2BB3F1D8009096A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A99C995F2BB3F1D6009096A8 = {
+			isa = PBXGroup;
+			children = (
+				A99C996A2BB3F1D6009096A8 /* Udder */,
+				A99C997B2BB3F1D8009096A8 /* UdderTests */,
+				A99C99852BB3F1D8009096A8 /* UdderUITests */,
+				A99C99692BB3F1D6009096A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A99C99692BB3F1D6009096A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99C99682BB3F1D6009096A8 /* Udder.app */,
+				A99C99782BB3F1D8009096A8 /* UdderTests.xctest */,
+				A99C99822BB3F1D8009096A8 /* UdderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99C996A2BB3F1D6009096A8 /* Udder */ = {
+			isa = PBXGroup;
+			children = (
+				A99C996B2BB3F1D6009096A8 /* UdderApp.swift */,
+				A99C996D2BB3F1D6009096A8 /* ContentView.swift */,
+				A99C996F2BB3F1D8009096A8 /* Assets.xcassets */,
+				A99C99712BB3F1D8009096A8 /* Preview Content */,
+			);
+			path = Udder;
+			sourceTree = "<group>";
+		};
+		A99C99712BB3F1D8009096A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A99C99722BB3F1D8009096A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A99C997B2BB3F1D8009096A8 /* UdderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A99C997C2BB3F1D8009096A8 /* UdderTests.swift */,
+			);
+			path = UdderTests;
+			sourceTree = "<group>";
+		};
+		A99C99852BB3F1D8009096A8 /* UdderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A99C99862BB3F1D8009096A8 /* UdderUITests.swift */,
+				A99C99882BB3F1D8009096A8 /* UdderUITestsLaunchTests.swift */,
+			);
+			path = UdderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A99C99672BB3F1D6009096A8 /* Udder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99C998C2BB3F1D8009096A8 /* Build configuration list for PBXNativeTarget "Udder" */;
+			buildPhases = (
+				A99C99642BB3F1D6009096A8 /* Sources */,
+				A99C99652BB3F1D6009096A8 /* Frameworks */,
+				A99C99662BB3F1D6009096A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Udder;
+			productName = Udder;
+			productReference = A99C99682BB3F1D6009096A8 /* Udder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A99C99772BB3F1D8009096A8 /* UdderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99C998F2BB3F1D8009096A8 /* Build configuration list for PBXNativeTarget "UdderTests" */;
+			buildPhases = (
+				A99C99742BB3F1D8009096A8 /* Sources */,
+				A99C99752BB3F1D8009096A8 /* Frameworks */,
+				A99C99762BB3F1D8009096A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99C997A2BB3F1D8009096A8 /* PBXTargetDependency */,
+			);
+			name = UdderTests;
+			productName = UdderTests;
+			productReference = A99C99782BB3F1D8009096A8 /* UdderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A99C99812BB3F1D8009096A8 /* UdderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99C99922BB3F1D8009096A8 /* Build configuration list for PBXNativeTarget "UdderUITests" */;
+			buildPhases = (
+				A99C997E2BB3F1D8009096A8 /* Sources */,
+				A99C997F2BB3F1D8009096A8 /* Frameworks */,
+				A99C99802BB3F1D8009096A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99C99842BB3F1D8009096A8 /* PBXTargetDependency */,
+			);
+			name = UdderUITests;
+			productName = UdderUITests;
+			productReference = A99C99822BB3F1D8009096A8 /* UdderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A99C99602BB3F1D6009096A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A99C99672BB3F1D6009096A8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A99C99772BB3F1D8009096A8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A99C99672BB3F1D6009096A8;
+					};
+					A99C99812BB3F1D8009096A8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A99C99672BB3F1D6009096A8;
+					};
+				};
+			};
+			buildConfigurationList = A99C99632BB3F1D6009096A8 /* Build configuration list for PBXProject "Udder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A99C995F2BB3F1D6009096A8;
+			productRefGroup = A99C99692BB3F1D6009096A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A99C99672BB3F1D6009096A8 /* Udder */,
+				A99C99772BB3F1D8009096A8 /* UdderTests */,
+				A99C99812BB3F1D8009096A8 /* UdderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A99C99662BB3F1D6009096A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C99732BB3F1D8009096A8 /* Preview Assets.xcassets in Resources */,
+				A99C99702BB3F1D8009096A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C99762BB3F1D8009096A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C99802BB3F1D8009096A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A99C99642BB3F1D6009096A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C996E2BB3F1D6009096A8 /* ContentView.swift in Sources */,
+				A99C996C2BB3F1D6009096A8 /* UdderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C99742BB3F1D8009096A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C997D2BB3F1D8009096A8 /* UdderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C997E2BB3F1D8009096A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C99872BB3F1D8009096A8 /* UdderUITests.swift in Sources */,
+				A99C99892BB3F1D8009096A8 /* UdderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99C997A2BB3F1D8009096A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99C99672BB3F1D6009096A8 /* Udder */;
+			targetProxy = A99C99792BB3F1D8009096A8 /* PBXContainerItemProxy */;
+		};
+		A99C99842BB3F1D8009096A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99C99672BB3F1D6009096A8 /* Udder */;
+			targetProxy = A99C99832BB3F1D8009096A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A99C998A2BB3F1D8009096A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A99C998B2BB3F1D8009096A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99C998D2BB3F1D8009096A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Udder/Preview Content\"";
+				DEVELOPMENT_TEAM = 73D4LZ74M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukak.Udder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A99C998E2BB3F1D8009096A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Udder/Preview Content\"";
+				DEVELOPMENT_TEAM = 73D4LZ74M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukak.Udder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A99C99902BB3F1D8009096A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73D4LZ74M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukak.UdderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Udder";
+			};
+			name = Debug;
+		};
+		A99C99912BB3F1D8009096A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73D4LZ74M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukak.UdderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Udder";
+			};
+			name = Release;
+		};
+		A99C99932BB3F1D8009096A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73D4LZ74M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukak.UdderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Udder;
+			};
+			name = Debug;
+		};
+		A99C99942BB3F1D8009096A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73D4LZ74M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukak.UdderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Udder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A99C99632BB3F1D6009096A8 /* Build configuration list for PBXProject "Udder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99C998A2BB3F1D8009096A8 /* Debug */,
+				A99C998B2BB3F1D8009096A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99C998C2BB3F1D8009096A8 /* Build configuration list for PBXNativeTarget "Udder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99C998D2BB3F1D8009096A8 /* Debug */,
+				A99C998E2BB3F1D8009096A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99C998F2BB3F1D8009096A8 /* Build configuration list for PBXNativeTarget "UdderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99C99902BB3F1D8009096A8 /* Debug */,
+				A99C99912BB3F1D8009096A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99C99922BB3F1D8009096A8 /* Build configuration list for PBXNativeTarget "UdderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99C99932BB3F1D8009096A8 /* Debug */,
+				A99C99942BB3F1D8009096A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A99C99602BB3F1D6009096A8 /* Project object */;
+}
