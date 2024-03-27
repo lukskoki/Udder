@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import OpenAI
 
 struct ContentView: View {
     var body: some View {
